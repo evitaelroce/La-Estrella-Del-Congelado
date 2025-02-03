@@ -248,7 +248,7 @@ header {
 }
 
 .espacios {
-    height: 300px;
+    height: 900px;
 }
 
 .who {
@@ -274,7 +274,11 @@ header {
         text-align: center;
         margin: 15px 80px;
     }
-
+    iframe{
+        width: 892px;
+        height: 500px;
+        margin: 50px auto;
+    }
 }
 
 .who2 {
@@ -339,6 +343,7 @@ header {
         }
     }
 
+
 }
 
 .espacios2 {
@@ -375,7 +380,7 @@ footer {
         font-weight: normal;
         position: absolute;
         top: -1%;
-        left: 41%;
+        left: 2%;
 
         img {
             width: 10%
@@ -386,19 +391,19 @@ footer {
 
     iframe {
         text-align: center;
-        width: 20%;
+        width: 15%;
         max-height: 200px;
         margin: 0 auto;
         position: absolute;
-        bottom: 22%;
-        left: 41%;
+        bottom: 18%;
+        left: 4%;
     }
 
     .direccion {
         position: absolute;
-        bottom: 10%;
+        bottom: 4%;
         text-shadow: 0 0 1px #62687b;
-        left: 42%;
+        left: 3%;
         color: white;
         font-family: "Bebas";
     }
@@ -408,5 +413,14 @@ footer {
         color: white;
         bottom: 1%;
         left: 43%;
+    }
+    ul{
+        position: absolute;
+        left: 22%;
+        bottom: 1%;
+        font-size: 40px;
+        li{
+            margin-bottom: 2px;
+        }
     }
 }
